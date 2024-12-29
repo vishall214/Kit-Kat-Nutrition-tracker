@@ -1,0 +1,186 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #FDFABA;
+    color: #12372A;
+    line-height: 1.6;
+    font-weight: 500;
+  }
+
+  .calorie-count-button{
+    background-color: #ADBC9F;
+    color: #12372A;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 25px;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #0f2d22;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: sticky;
+    top: 0;
+    height: 80px !important;
+    z-index: 100;
+  }
+  
+  .navbar .logo {
+    font-family: 'Spicy Rice', cursive;
+    color: #FDFABA;
+    font-size: 40px;
+  }
+  
+  .navbar .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar .nav-links li a {
+    color: #FDFABA;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    transition: color 0.3s, transform 0.3s;
+  }
+  
+  .navbar .nav-links li a:hover {
+    color: #ADBC9F;
+    transform: translateY(-3px);
+  }
+  
+  
+  
+  
+  
+  .hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    background: linear-gradient(to top, #12372A, #436850);
+    color: #FDFABA;
+    text-align: center;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .hero h1 {
+    font-size: 56px;
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+  
+  .hero p {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  .hero .cta-buttons {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .hero .cta-buttons .button {
+    background-color: #ADBC9F;
+    color: #12372A;
+    border: none;
+    padding: 12px 25px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .hero .cta-buttons .button:hover {
+    background-color: #436850;
+    transform: translateY(-3px);
+  }
+  
+  .features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    padding: 50px;
+  }
+  
+  .feature-card {
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .feature-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .feature-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .feature-content {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .feature-content h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #12372A;
+    margin-bottom: 10px;
+  }
+  
+  .feature-content p {
+    font-size: 16px;
+    color: #436850;
+    margin-bottom: 20px;
+  }
+  
+  .feature-content .button {
+    background-color: #ADBC9F;
+    color: #12372A;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 25px;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .feature-content .button:hover {
+    background-color: #436850;
+    color: #FDFABA;
+    transform: scale(1.05);
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #12372A;
+    color: #FDFABA;
+  }
+
